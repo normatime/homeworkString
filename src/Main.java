@@ -1,0 +1,33 @@
+import java.util.Locale;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println();
+        System.out.println("Task 1");
+        System.out.println();
+
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
+        String fullName = lastName + " " + firstName + " " + middleName;
+        System.out.println(fullName);
+
+        System.out.println();
+        System.out.println("Task 2");
+        System.out.println();
+
+        String upperCase = fullName.toUpperCase(Locale.ROOT);
+        System.out.println(upperCase);
+
+        System.out.println();
+        System.out.println("Task 3");
+        System.out.println();
+
+        fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace("ё", "е");
+        System.out.println(fullName);
+    }
+}
