@@ -13,14 +13,14 @@ public class Main {
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
-        System.out.println(fullName);
+        System.out.println("Ф.И.О сотрудника - " + fullName);
 
         System.out.println();
         System.out.println("Task 2");
         System.out.println();
 
         String upperCase = fullName.toUpperCase(Locale.ROOT);
-        System.out.println(upperCase);
+        System.out.println("Ф.И.О сотрудника - " + upperCase);
 
         System.out.println();
         System.out.println("Task 3");
@@ -28,6 +28,6 @@ public class Main {
 
         fullName = "Иванов Семён Семёнович";
         fullName = fullName.replace("ё", "е");
-        System.out.println(fullName);
+        System.out.println("Ф.И.О сотрудника - " + fullName);
     }
-}//4
+}
